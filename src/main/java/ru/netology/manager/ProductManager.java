@@ -43,11 +43,11 @@ public class ProductManager {
             return false;
         }
         if (item instanceof TShirt) {
-            TShirt smartphone = (TShirt) item;
-            if (smartphone.getManufacturer().contains(search)) {
+            TShirt tShirt = (TShirt) item;
+            if (tShirt.getManufacturer().contains(search)) {
                 return true;
             }
-            if (smartphone.getName().contains(search)) {
+            if (tShirt.getName().contains(search)) {
                 return true;
             }
             return false;
