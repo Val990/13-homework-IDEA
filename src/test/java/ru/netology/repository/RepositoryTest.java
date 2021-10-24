@@ -16,9 +16,9 @@ class RepositoryTest {
     private Book book1 = new Book(1, "Jane Eyre", 600, "Bronte");
     private Book book2 = new Book(2, "Three Men in a Boat", 700, "Jerome");
     private Book book3 = new Book(3, "Iphone", 1_000, "Poug");
-    private TShirt tShirt1 = new TShirt(4, "TShirt1", 20_000, "Nike");
-    private TShirt tShirt2 = new TShirt(5, "TShirt2", 15_000, "Demix");
-    private TShirt tShirt3 = new TShirt(6, "TShirt3", 17_000, "Cropp");
+    private TShirt tShirt1 = new TShirt(4, "TShirt1", 2_000, "Nike");
+    private TShirt tShirt2 = new TShirt(5, "TShirt2", 1_500, "Demix");
+    private TShirt tShirt3 = new TShirt(6, "TShirt3", 1_000, "Cropp");
 
     @BeforeEach
     public void setUp() {
